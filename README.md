@@ -2,10 +2,10 @@
 
 This repo contains tutorial files for using Apache Thrift.
 
-##Introduction
+## Introduction
 Coming Soon
 
-##Tutorial
+## Tutorial
 1. Download a copy of Thrift, found [here](https://thift.apache.org)
 
 2. Follow the install guides found [here](https://thrift.apache.org/docs/install/)
