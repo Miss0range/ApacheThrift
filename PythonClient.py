@@ -25,21 +25,23 @@ def main():
     client.ping()
 
     while True :
-        text = input("Operation:1. See balance 2.Withdraw 3.deposit")
-        if(text == "1"): 
+        text = input("Operation:1. See balance 2.Withdraw 3.deposit 4. Exit")
+        if text == "1":
             text = input("What's your account number?")
             balance = bank.get_balance(int(text))
             print(balance)
-        else if(text == "2"):
+        elif text == "2":
             acc_num = input("Account number")
             w_draw = input("Amount to withdraw")
             nbalance = bank.withdraw(int(acc_num),int(w_draw))
             print(nbalance)
-        else if(text == "3"):
+        elif text == "3":
             acc_num = input("Account number")
             d_pos = input("Amount to withdraw")
             nbalance = bank.withdraw(int(acc_num),int(d_pos))
             print(nbalance)
+        elif text == "4":
+            break
         else:
             print("Invalid operation")
 
