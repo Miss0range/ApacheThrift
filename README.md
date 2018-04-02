@@ -11,8 +11,8 @@ Coming Soon
 2. Follow the install guides found [here](https://thrift.apache.org/docs/install/)
 
 3. Write a thrift file defining an interface for your service.  See `bank.thrift` for an example.
-  *The Thrift interface description language can be found [here](http://thrift.apache.org/docs/idl)
-  *The Thrift type desction can be found [here](http://thrift.apache.org/docs/types)
+  * The Thrift interface description language can be found [here](http://thrift.apache.org/docs/idl)
+  * The Thrift type desction can be found [here](http://thrift.apache.org/docs/types)
 
 4. Write a server file and handler to perform the functions defined in your `.thrift` file.  See `JavaServer.java` and `BankHandler.java` for examples of a server and handler respectively.
 
