@@ -1,0 +1,4 @@
+
+thrift.exe
+gen-java/Bank.java
+gen-java/InvalidOperation.java

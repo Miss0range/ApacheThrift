@@ -4,7 +4,11 @@
 * for your client/server.
 **/
 
-service Bank extends shared.SharedService {
+exception InvalidOperation {
+    1: string why
+}
+
+service Bank {
 
     void ping(),
 
@@ -18,6 +22,4 @@ service Bank extends shared.SharedService {
 
 }
 
-exception InvalidOperation {
-    1: string why
-}
+
