@@ -19,7 +19,7 @@ def main():
     #Wrap
     protocol= TBinaryProtocol.TBinaryProtocal(transport)
     #Create client
-    client = bank.Client(protocal)
+    client = bank.Client(protocol)
     #Connect
     transport.open()
     client.ping()
